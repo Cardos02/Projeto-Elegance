@@ -12,6 +12,51 @@ html,body{
 }
 
 header{
+    display: flex;
+    height: 200px;
     background-color: lightblue;
-    width
+}
+
+h1{
+    
+}
+h2{
+    text-align: center;
+}
+
+#sec-menu{
+    height: 50px;
+    width: 50px;
+}
+
+footer{
+    display: flex;
+    background-color: lightcoral;
+    
+}
+
+#social{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+#instagram{
+    background-image: url(imagens/png-transparent-instagram-logo-computer-icons-insta-logo-rectangle-sticker-circle.png);
+    background-size: cover;
+}
+#github{
+    background-image: url(imagens/png-clipart-github-repository-source-code-version-control-github-logo-monochrome.png);
+    background-size: cover;
+    background-position: center;
+}
+
+p{
+    text-align: center;
+}
+
+button{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
 }
