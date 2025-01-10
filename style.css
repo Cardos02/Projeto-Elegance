@@ -14,12 +14,9 @@ html,body{
 header{
     display: flex;
     height: 200px;
-    background-color: lightblue;
+    background-color: rgb(221, 233, 237);
 }
 
-h1{
-    
-}
 h2{
     text-align: center;
 }
@@ -29,10 +26,16 @@ h2{
     width: 50px;
 }
 
-footer{
+#txt-main{
     display: flex;
-    background-color: lightcoral;
-    
+    flex-direction: column;
+    justify-content: center;
+    height: 360px;
+    width: 350px;
+}
+
+.imagens{
+    width: 100%;
 }
 
 #social{
@@ -50,6 +53,13 @@ footer{
     background-size: cover;
     background-position: center;
 }
+
+footer{
+    display: flex;
+    background-color: rgb(237, 194, 194);
+    
+}
+
 
 p{
     text-align: center;
