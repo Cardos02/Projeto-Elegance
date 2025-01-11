@@ -12,19 +12,36 @@ html,body{
 }
 
 header{
-    display: flex;
-    height: 200px;
+    height: 400px;
     background-color: rgb(221, 233, 237);
+}
+
+#sec-menu{
+    display: flex;
+    align-items: center;
+    background-color: rgb(221, 230, 233);
+    height:50px;      
+}
+#btn-menu{
+    background-color: rgba(242, 242, 231, 0.241);
+    border-color: rgba(1, 1, 0, 0.461);
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+#btn-menu:hover{
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    
 }
 
 h2{
     text-align: center;
 }
 
-#sec-menu{
-    height: 50px;
-    width: 50px;
-}
 
 #txt-main{
     display: flex;
