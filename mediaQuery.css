@@ -1,1 +1,24 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 500px) {
+
+    header{
+        height: 350px;
+    }
+
+    #img01,#img02{
+        margin: auto;
+        width: 90%;
+    }
+}
+@media screen and (min-width: 650px) {
+
+    header{
+        height: 350px;
+    }
+    
+    #img01,#img02{
+        margin: auto;
+        width: 60%;
+    }
+}
